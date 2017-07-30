@@ -65,7 +65,7 @@ zend_module_entry rootkit_module_entry = {
         NULL,                               // On module shutdown
         NULL,                               // On request start
         NULL,                               // On request end
-        PHP_MINFO(rootkit),                 // Module info (will be showed in phpinfo)
+        PHP_MINFO(rootkit),                 // Module info (will be shown in phpinfo)
     #if ZEND_MODULE_API_NO >= 20010901
         ROOTKIT_VERSION,
     #endif
